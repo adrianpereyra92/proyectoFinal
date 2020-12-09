@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    background-image: url("../img/manoroja.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: lightgray;
+    font-family: 'Oswald';
+    
+}
+
+/* HEADER */
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+    font-family: 'oswald';
+    text-decoration: none;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: lightgray;
+    font-size: 25px;
+}
+a:hover{
+    color: red;
+    transition-duration: 0.3s;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+li{
+    margin: 7px;
+}
+
+/*TITULOS Y SUBTITULOS*/
+.titulo{
+    color: darkred;
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px; 
+    animation: text 1s 1 ;
+    animation-delay: 0.1s;
+}
+.soad{
+    transform: translateX(10px);
+}
+.subtitulo{
+    font-family: 'Oswald';
+    text-align: center;
+    margin-bottom: 50px;
+    color: darkgray;
+}
+span:hover{
+    color: darkred;
+}
+footer{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: lightgray;
+    font-family: 'Oswald';
+    text-align: center;
+    
+}.formulario{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald';
+    
+}
+.videoindex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald';
+    font-size: 35px;
+    margin: 25px;
+    padding: 25px;
+    
+}
+.table{
+    display: flex;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    border: none;
+}
+#reset{
+    background-color: black;
+    color: lightgray;
+    font-family: 'Oswald';
+    font-size: 25px;
+    border: none;
+    margin-right: 15px;
+}
+#submit{
+    background-color: black;
+    color: lightgray;
+    font-family: 'Oswald';
+    font-size: 25px;
+    border: none;
+    margin-left: 15px;
+}
+#reset:hover{
+    color:red;
+    margin-right: 15px;
+}
+#submit:hover{
+    color:red;
+    margin-left: 15px;
+}
+.footerlink{
+    font-size: 17px;
+}
+.contenedorShirts{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+    grid-template-areas: "shirts shirts shirts"
+                         "shirts shirts shirts ";
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Oswald';
+    
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; */
+    
+    
+}
+.botoncomprar{
+    background-color: black;
+    border: none;
+}
+.albums{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 600px 600px 600px;
+    justify-content: space-around;
+    font-family: 'Oswald';
+    text-align: center;
+}
+.subtitleMusic{
+    margin-bottom: 50px;
+}
+
+.shirts img{
+    height: 300px;
+    width: 300px;
+}
+
+.tituloShop{
+    margin-bottom: 200px;
+}
+.tituloMusic{
+    margin-bottom: 200px;
+}
+
+.fotosBand{
+    height: 200px;
+    width: 400px;
+    transition-property: all;
+    transition-duration: 1s;
+    margin: 100px;
+    
+}
+.fotosBand:hover{
+    transform: scale(1.3,1.3);
+}
+
+.bandContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    text-align: center;
+}
+
+.members{
+    justify-content: center;
+    padding: 50px;
+    margin: 50px;
+}
+.bio{
+    margin: 150px;
+    padding: 100px;
+    
+}
+.subtitleBio{
+    font-size: 60px;
+    text-align: center;
+}
+.names{
+    font-size: 45px;
+    margin-top: 150px;
+}
+
+.subtitleBand{
+    font-size: 60px;
+    text-align: center;
+}
+.subtituloIndex{
+    color: lightgray;
+    font-weight: 300;
+}
+
+.subtituloNewsletter{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.memberParrafo{
+    font-size: 25px;
+}
+
+@keyframes text {
+    0% { 
+        color: red;
+        
+    }
+    30% {
+        letter-spacing: 15px;
+        
+    }
+    
+} 
+
